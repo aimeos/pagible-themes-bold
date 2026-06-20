@@ -134,7 +134,7 @@
 }
 
 .pricing .highlight .price {
-    border-bottom-color: #FFFFFF30;
+    border-bottom-color: var(--pico-contrast-hover-border);
 }
 
 .pricing .amount {
@@ -242,8 +242,8 @@
 
 .pricing .highlight .btn {
     color: var(--pico-primary-inverse);
-    background: #000000;
-    border-color: #000000;
+    background: var(--pico-background-color);
+    border-color: var(--pico-background-color);
 }
 
 .pricing .highlight .btn:hover {

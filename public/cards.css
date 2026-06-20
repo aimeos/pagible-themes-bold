@@ -64,7 +64,7 @@
 }
 
 .cards .card-item:nth-child(odd) {
-    background-color: #000000;
+    background-color: var(--pico-contrast-background);
 }
 
 .cards .card-item:nth-child(even) {
@@ -98,5 +98,5 @@
 
 .cards .card-item:nth-child(even) h3,
 .cards .card-item:nth-child(even) p {
-    color: #111111;
+    color: var(--pico-contrast-inverse);
 }

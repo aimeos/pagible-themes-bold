@@ -142,6 +142,7 @@ p code {
 pre code[class*=language-] {
     background-color: var(--pico-contrast-background);
     overflow-x: auto;
+    display: block;
 }
 
 pre:has(code[class*="language-"]) {
