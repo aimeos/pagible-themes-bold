@@ -100,3 +100,7 @@
 .cards .card-item:nth-child(even) p {
     color: var(--pico-contrast-inverse);
 }
+
+.cards .card-item a {
+    text-decoration: none;
+}

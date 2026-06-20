@@ -30,10 +30,8 @@
 }
 
 .blog img {
-    display: block;
     aspect-ratio: 5 / 3;
     object-fit: cover;
-    width: 100%;
 }
 
 .blog .date {
