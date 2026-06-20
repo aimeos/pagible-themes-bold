@@ -117,13 +117,11 @@ nav li :where(a,[role=link]) {
 }
 
 body > header {
-    max-width: 1200px;
-    margin: auto;
     border-bottom: 1px solid var(--pico-contrast-border);
 }
 
 header nav {
-    padding: 0.75rem 0;
+    padding: 0.75rem min(5%, 2rem);
 }
 
 header nav ol,
@@ -325,8 +323,7 @@ nav.breadcrumb {
 
 nav.breadcrumb > ul {
     text-align: center;
-    max-width: 1200px;
-    margin: auto;
+    padding-inline: min(5%, 2rem);
     width: 100%;
 }
 
@@ -359,7 +356,7 @@ nav.breadcrumb ul li a:hover {
 
 
 .container {
-    max-width: 1200px !important;
+    max-width: none !important;
 }
 
 details summary {
@@ -368,12 +365,9 @@ details summary {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--pico-font-family-display);
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: -0.02em;
-}
-
-h1, h2, h3, h4 {
-    font-weight: normal;
 }
 
 h1, h2 {

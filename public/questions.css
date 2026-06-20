@@ -3,7 +3,7 @@
  */
 
 .questions details {
-    border: 1px solid var(--pico-contrast-border);
+    border: 1px solid var(--pico-primary);
     margin-bottom: 0;
     padding: 1.25rem 1.5rem;
 }

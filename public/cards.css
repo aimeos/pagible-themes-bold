@@ -8,14 +8,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cards .card-list.cols-auto {
+    .cards .card-list {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .cards .card-list.cols-auto {
+    .cards .card-list {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cards .card-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -49,8 +55,21 @@
     transition: background-color 0.15s ease;
 }
 
-.cards .card-item:hover {
+.cards .card-item:nth-child(odd) {
+    background-color: #000000;
+}
+
+.cards .card-item:nth-child(even) {
+    background-color: var(--pico-primary);
+    border-color: var(--pico-primary);
+}
+
+.cards .card-item:nth-child(odd):hover {
     background-color: var(--pico-contrast-hover-background);
+}
+
+.cards .card-item:nth-child(even):hover {
+    background-color: var(--pico-primary-hover);
 }
 
 .cards .card-item h3 {
@@ -67,4 +86,9 @@
 
 .cards .card-item p {
     color: var(--pico-muted-color);
+}
+
+.cards .card-item:nth-child(even) h3,
+.cards .card-item:nth-child(even) p {
+    color: #111111;
 }
