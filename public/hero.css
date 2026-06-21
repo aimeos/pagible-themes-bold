@@ -34,8 +34,7 @@
 .hero .container {
     display: flex;
     align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 2rem;
 }
 
 .hero .first {

@@ -3,10 +3,6 @@
  */
 
 main .cms-content {
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
-}
-
-main .cms-content .container {
-    padding: 0 min(5%, 2rem);
 }

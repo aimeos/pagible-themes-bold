@@ -6,7 +6,7 @@
     background-color: var(--pico-primary);
     color: var(--pico-contrast-inverse);
     border: 1px solid var(--pico-primary);
-    margin: 1rem;
+    margin: 0 1rem 1rem;
     padding: 1.25rem 1.5rem;
 }
 
