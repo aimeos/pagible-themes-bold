@@ -22,14 +22,13 @@
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-size: calc(var(--pico-font-size) * 0.85);
-}
-
-.table-responsive .th:first-child {
-    text-align: start;
+    text-align: center;
+    align-self: end;
 }
 
 .table-responsive .td {
     text-align: center;
+    align-self: center;
 }
 
 .table-responsive .th > *:first-child,
