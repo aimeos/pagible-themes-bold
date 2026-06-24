@@ -21,12 +21,21 @@
     color: var(--pico-contrast);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-size: calc(var(--pico-font-size) * 0.85);
+    font-size: var(--pico-font-size);
     text-align: center;
     align-self: end;
 }
 
+.table-responsive .th:first-child {
+    text-align: start;
+}
+
+.table-responsive .table-row:first-child .th:first-child:not(.col) {
+    text-align: center;
+}
+
 .table-responsive .td {
+    font-size: var(--pico-font-size);
     text-align: center;
     align-self: center;
 }
