@@ -4,11 +4,7 @@
 
 .testimonial .title {
     color: var(--pico-primary);
-    font-family: var(--pico-font-family-display);
-    font-size: calc(var(--pico-font-size) * 1.5);
-    text-transform: uppercase;
     letter-spacing: 0.02em;
-    margin-bottom: 2rem;
 }
 
 .testimonial .testimonial-list {
