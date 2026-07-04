@@ -95,6 +95,7 @@
 .cms-content .list .list-list .content {
     flex: 3;
     padding: 1rem;
+    align-content: center;
 }
 
 .cms-content .list .second h3,
