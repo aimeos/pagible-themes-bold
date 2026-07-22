@@ -58,8 +58,6 @@
 }
 
 .cards .card-item {
-    padding: 2rem;
-    border: 1px solid var(--pico-contrast-border);
     transition: background-color 0.15s ease;
 }
 
@@ -69,7 +67,6 @@
 
 .cards .card-item:nth-child(even) {
     background-color: var(--pico-primary);
-    border-color: var(--pico-primary);
 }
 
 .cards .card-item:nth-child(odd):hover {
@@ -80,13 +77,17 @@
     background-color: var(--pico-primary-hover);
 }
 
-.cards .card-item picture.image {
-    max-width: 10rem;
-    padding: 2rem;
+.cards .card-item *:first-child:not(picture) {
+    margin-top: 2rem;
 }
 
-.cards .card-item h3 {
-    color: var(--pico-primary);
+.cards .card-item h3,
+.cards .card-item .cms-text {
+    margin: 0 2rem;
+}
+
+.cards .card-item *:last-child {
+    margin-bottom: 2rem;
 }
 
 .cards .title {
