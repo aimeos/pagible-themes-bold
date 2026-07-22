@@ -42,10 +42,11 @@
     flex-direction: row-reverse;
 }
 
-.image-text .grid-start .text,
-.image-text .grid-end .text {
-    flex: 1;
+.image-text .grid-start .cms-text,
+.image-text .grid-end .cms-text {
+    margin: 0 2rem;
     min-width: 0;
+    flex: 1;
 }
 
 .image-text .grid-start .image,
