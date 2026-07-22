@@ -522,7 +522,7 @@ class BoldDemo extends AbstractDemo
             'status' => 1,
         ], [
             ['id' => Utils::uid(), 'type' => 'hero', 'group' => 'main', 'data' => [
-                'title' => 'Choose a rhythm. Build momentum.',
+                'title' => 'Choose a rhythm. Build momentum',
                 'subtitle' => 'RALLY membership',
                 'text' => 'Straightforward plans for one good session, a reliable twice-weekly practice, or training that moves with your week. No joining fee. No twelve-month lock-in.',
                 'url' => '#plans',
@@ -712,7 +712,7 @@ class BoldDemo extends AbstractDemo
                 ],
             ]],
             ['id' => Utils::uid(), 'type' => 'hero', 'group' => 'main', 'data' => [
-                'title' => 'Do the work. Keep the momentum.',
+                'title' => 'Do the work. Keep the momentum',
                 'subtitle' => 'First class · 15€',
                 'text' => 'Choose a session with a coach and leave knowing what should come next.',
                 'url' => '/start',
@@ -928,7 +928,7 @@ class BoldDemo extends AbstractDemo
 
         $content = [
             ['id' => Utils::uid(), 'type' => 'hero', 'group' => 'main', 'data' => [
-                'title' => 'Train with intent. Leave with momentum.',
+                'title' => 'Train with intent. Leave with momentum',
                 'subtitle' => 'RALLY Training Club · Berlin',
                 'text' => 'Coached strength and conditioning for people who want serious progress, clear direction, and enough energy left for the rest of life.',
                 'url' => '/start',
