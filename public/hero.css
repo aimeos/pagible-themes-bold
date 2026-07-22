@@ -34,7 +34,6 @@
 .hero .container {
     display: flex;
     align-items: center;
-    padding: 3rem 2rem;
 }
 
 .hero .first {
@@ -50,7 +49,6 @@
 .hero .first:has(+ .second),
 .hero .first:has(+ .second) h1 {
     text-align: start;
-    margin: initial;
 }
 
 .hero h1 {
@@ -86,7 +84,6 @@
 @media screen and (min-width: 576px) {
     .hero .first:has(+ .second) {
         width: 60%;
-        margin-inline-end: 2rem;
     }
 
     .hero .second {
