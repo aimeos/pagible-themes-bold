@@ -8,6 +8,10 @@
     row-gap: 1rem;
 }
 
+.cards .card-list.cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+}
+
 @media screen and (max-width: 767px) {
     .cards .card-list {
         width: 100vw;
@@ -18,19 +22,6 @@
 @media screen and (min-width: 768px) {
     .cards .card-list {
         grid-auto-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .cards .card-list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .cards .card-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
