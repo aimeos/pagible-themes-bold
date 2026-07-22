@@ -91,17 +91,12 @@
     background-color: var(--pico-primary-hover);
 }
 
-.cards .card-item *:first-child:not(picture) {
-    margin-top: 2rem;
+.cards .card-item picture.image {
+    margin: unset;
 }
 
-.cards .card-item h3,
-.cards .card-item .cms-text {
-    margin: 0 2rem;
-}
-
-.cards .card-item *:last-child {
-    margin-bottom: 2rem;
+.cards .card-item .card-text {
+    margin: 2rem;
 }
 
 .cards .title {
