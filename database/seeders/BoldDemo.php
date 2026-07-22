@@ -1106,13 +1106,12 @@ class BoldDemo extends AbstractDemo
         if( !isset( $this->logoFile ) )
         {
             $svg = <<<'SVG'
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 72" role="img" aria-labelledby="title desc">
-  <title id="title">RALLY Training Club logo</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 72" role="img" aria-labelledby="title desc">
+  <title id="title">RALLY logo</title>
   <desc id="desc">RALLY wordmark with three forward-moving orange bars</desc>
   <g fill="none" fill-rule="evenodd">
     <path d="M8 12h42L38 30H8zM8 33h31L27 51H8zM8 54h20l-8 12H8z" fill="#FF4500"/>
     <text x="66" y="49" fill="#F4F4F4" font-family="Arial Black, Archivo Black, ui-sans-serif, sans-serif" font-size="43" font-weight="900" letter-spacing="-1.5">RALLY</text>
-    <text x="226" y="48" fill="#FF4500" font-family="Arial, ui-sans-serif, sans-serif" font-size="12" font-weight="700" letter-spacing="2">TRAINING CLUB</text>
   </g>
 </svg>
 SVG;
@@ -1127,7 +1126,7 @@ SVG;
             $data = [
                 'mime' => 'image/svg+xml',
                 'lang' => 'en',
-                'name' => 'RALLY Training Club logo',
+                'name' => 'RALLY logo',
                 'path' => $path,
                 'previews' => ['500' => $path],
                 'description' => ['en' => 'RALLY wordmark with three forward-moving orange bars'],
